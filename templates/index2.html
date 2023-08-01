@@ -1,0 +1,20 @@
+#simple Page With different operations using textutility.py and analyse.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Template is working</title>
+</head>
+<body>
+    <h1>Hey! This Is a Text Analyser</h1>
+    <form action="/analyze"  method ="get">
+        <textarea  name='text'style="height: 158px; width: 1338px;"> </textarea>
+        <input type='checkbox' name="removepunc">Remove Punctations<br>
+         <input type='checkbox' name="capital">UPPER CASE<br>
+         <input type='checkbox' name="extraspaceremover">Extra Space Remover<br>
+         <input type='checkbox' name="chcount">Character counter<br>
+        <button type="Submit">Analyse Text</button>
+    </form>
+</body>
+</html>
